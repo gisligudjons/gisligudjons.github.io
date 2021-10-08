@@ -1,14 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <title>Condegram Spiral Plot</title>
-      <link rel="stylesheet" type="text/css" href="style.css"/>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wigs and Portraits Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <script data-require="d3@4.0.0" data-semver="4.0.0" src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="WigWig.jpeg" alt="lýsa myndinni hér" class="logo">
+      <nav>
+        <ul> 
+          <li><a href="https://github.com/gisligudjons/major-studio-1/tree/main/Final">The Project on GitHub</a></li>
+        </ul>
+      </nav>
+      <img src="WigLogo.jpeg" class="menu-icon">
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <h2>Wigs & Portraits <br></h2>
+        <h3> The Story</h3>
+        <p>Historical records indicate that the first independent wigmakers' guild was created in 1673. The wig now enjoyed the most noble of pedigrees from the seventeenth-century French courts of Louis XIII and Louis XIV and it became a fashion icon that was integral to the aristocratic world of power and display.  </p>
+          <br>
+        <p>The 18th century saw elaborate wigs with mile-high coiffures and highly decorated curls. White powdered wigs with long ringlets became the order of the day. In fact, some imaginative ladies had wigs with small birdcages complete with bird, on top of their heads. For wigs, big hair was definitely the in-thing.</p>
+          <br>
+        <p>by the end of the 18th century the number of French master wigmakers had skyrocketed from the fashion center of Paris to other European capitols and finally to provincial cities as well. In addition to the guild master wigmakers were thousands of journeymen wig makers and artisans traveling the European countryside producing wigs clandestinely. Eventually, wigs were no longer an exclusive luxury item, an exclusive marker of high birth or a status symbol worn by the privileged few. A shorter, less elaborate wig, called the bob wig, was very popular in Colonial America at the beginning of the 18th century.</p>
+      </div>
+      <div id="chart">
       <script data-require="d3@4.0.0" data-semver="4.0.0" src="https://d3js.org/d3.v4.js"></script>
-  </head>
-  <body>
-	<div id="chart"></div>
-  <script data-require="d3@4.0.0" data-semver="4.0.0" src="https://d3js.org/d3.v4.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+        <script type="text/javascript" src="main.js"></script>
+    </div>
+        <div class="color-box"></div>
+        <div class="legend">
+         <table>
+          
+
+          </table>
+          
+
+      </div>
+        
+    </div>
+    </div>
+  </div>
+</body>
 </html>
