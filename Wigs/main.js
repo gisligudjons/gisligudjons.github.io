@@ -29,7 +29,6 @@ d3.json("WigData.json", function(someData){
   var radius = d3.scaleLinear()
     .domain([start, end])
     .range([20, r]);
-
   var svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.left + margin.right)
